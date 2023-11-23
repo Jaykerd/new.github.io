@@ -1,31 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Simple Website</title>
+    <title>My portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1JaHwmYPpZVQWPTyZpdmpohdOC-gQV42umg&usqp=CAU">
+
+    <!-- CSS LINE HERE -->
+    <style>
+        a:hover {
+          color: blue;
+        }
+            
+        div {
+            display: inline;
+        }
+      
+        .portfolio {
+            padding: 10px;
+            margin-left: 1px;
+            font-color: white;
+        }
+
+        body {
+            height: auto;
+            font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Roboto', sans-serif;
+            margin-top: 0px;
+            margin-left: 0;
+            margin-right: 0;
+            background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid black;
+            margin: 10px;
+        }
+
+        h2 {
+            color: #000000;
+            display: inline;
+            margin: 0;
+            margin-left: 50px;
+        }
+
+        .portfolio {
+            color: #00c0ff;
+            
+        }        
+
+        .btn {
+            color: white;
+            border: none;
+            background-color: #1c15ff;
+            border-radius: 40px;
+            height: 30px;
+            width: 70px;
+            margin-left: 50px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .yui {
+            height: 100px;
+            width: 100px;
+            border-radius: 60px;
+            padding: 10px;
+            margin-left: 50px;
+            margin-top: 200px;
+        }
+
+        a {
+            color: black;
+            font-family: Arial;
+            font-size: .5em;
+            font-weight: bold;
+        }        
+
+        .option {
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+
+        .upper {
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            border-bottom: 0.0001px solid #000;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+            background-color: #1E1E1E;
+            width: auto;
+            height: auto;
+            position: fixed;
+           
+        }
+
+        .leftH {
+            padding: 10px;
+        }
+        
+        .rightH {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          font-size: 30px;
+        }
+        
+        .c1, .c2, .c3 {
+          margin: 7px;
+          text-decoration: none;
+        }
+        
+        .c1 a, .c2 a, .c3 a{
+          text-decoration: none;
+          margin-left: 1px;
+        }
+        
+        .c1:hover, .c2:hover, .c3:hover {
+          color: red;
+          font-size: 1.1em;
+        }
+        
+        .c1:active, .c2:active, .c3:active {
+          color: #0003ff;
+          font-size: 1.1em;
+        }
+        
+        .c3 {
+          margin-right: 20px;
+        }
+        
+        p {
+          margin: 0;
+          margin-left: 50px;
+        }
+        
+        #email {
+          margin-left: 5px;
+        }
+        
+        #author {
+          margin-left: 50px;
+        }
+        
+        .facebook {
+          height: 20px;
+        }
+        
+        .bottom
+        {
+          margin-top: 300px;
+        }
+        
+        .text
+        {
+          font-color: white;
+        }
+        
+        section
+        {
+          margin-top: 100px;
+        }
+       
+       
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Simple Website</h1>
-    </header>
+<header>
+    <div class="upper">
+        <div class="leftH">
+            <h2 class="portfolio"><font color="white";>Jaykerd</font>|Folio</h2>
+        </div>
+        <div class="rightH">
+            <div class="c1">
+              <a href="#" onclick="alert('Unavailable')" class="text" style="color: white;">Home</a>
+            </div>
+            <div class="c2">
+              <a href="#" class="text" style="color: white;">About</a>
+            </div>
+            <div class="c3">
+              <a href="#" class="text" style="color: white;">Contact</a>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<main class="Bodyy">
+    <br>
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1JaHwmYPpZVQWPTyZpdmpohdOC-gQV42umg&usqp=CAU">
+        <img target="_blank" class="yui" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1JaHwmYPpZVQWPTyZpdmpohdOC-gQV42umg&usqp=CAU" alt="profile-pucture">
+    </a>
+    <p><b>Hi There,</b></p>
+    <h2>My name is <u style="color: #ff1f00f4;">Jaykerd</u></h2>
+    <p>Front end developer</p>
+
+    <a href="pre.html"><button class="btn">About me</button></a>
+    <br>
     
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="option">
+        <a href="https://www.facebook.com/jaykerdritz.sario.1?mibextid=ZbWKwL">
+          <img class="facebook" src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-facebook-2019-circle-512.png">
+        </a>
+        
+        <a href="https://lms.buksu.edu.ph/user/completed/390385"><img class="facebook" src="https://buksu.edu.ph/wp-content/uploads/2020/06/buksu-logo-min-512x512-1.png"></a>
+        
+        <a href="https://m.youtube.com/?gl=PH&tab=r1"><img class="facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png"></a>
+        
+        <a href="mailto:jaykerd123@gmail.com"><img class="facebook" src="https://static-00.iconduck.com/assets.00/gmail-icon-509x512-ikquhn8l.png"></a>
+        
+    </div>
     
-    <section>
-        <h2>Main Content</h2>
-        <p>This is a simple website. You can replace this text with your own content.</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2023 Simple Website</p>
-    </footer>
+    <section id="home">
+    <h2>Welcome to the Home Page</h2>
+    <!-- Placeholder content for the Home Page -->
+    <p>This is where you can introduce yourself and share information about your personal interests.</p>
+  </section>
+
+  <section id="blog">
+    <h2>IT111 Blog Entries Page</h2>
+    <!-- Placeholder content for the Blog Entries Page -->
+    <p>Explore your IT111 blog entries and showcase your knowledge and experiences in the field.</p>
+  </section>
+
+  <section id="flex">
+    <h2>Flex Page</h2>
+    <!-- Placeholder content for the Flex Page -->
+    <p>Discover the flexibility and creativity in web design using HTML and CSS.</p>
+  </section>
+</main>
+
+<footer>
+    <hr class="bottom">
+    <p id="author"><small>Author: Jaykerd Sario
+        <br>
+        &copy; Copyright Reserved
+    </small></p>
+  
+</footer>
 </body>
 </html>
